@@ -1,0 +1,56 @@
+{
+  "creativetab.expandedequipment.expanded_equipment_items": "Expanded Equipment Items",
+  "creativetab.expandedequipment.expanded_equipment_blocks": "Expanded Equipment Blocks",
+  "creativetab.expandedequipment.expanded_equipment_tools": "Expanded Equipment Tools",
+  "creativetab.expandedequipment.expanded_equipment_armor": "Expanded Equipment Armor",
+
+  "item.expandedequipment.raw_chorundum": "Raw Chorundum",
+  "item.expandedequipment.chorundum": "Chorundum",
+  "item.expandedequipment.chorundum_upgrade_template": "Smithing Template",
+
+  "item.expandedequipment.energetic_rock": "Energetic Rock",
+
+  "block.expandedequipment.end_chorundum_ore": "End Stone Chorundum Ore",
+  "block.expandedequipment.chorundum_block": "Block of Chorundum",
+  "block.expandedequipment.raw_chorundum_block": "Raw Chorundum Block",
+  "block.expandedequipment.energetic_deepslate_ore": "Energetic Deepslate Ore",
+
+  "item.expandedequipment.copper_pickaxe": "Copper Pickaxe",
+  "item.expandedequipment.copper_axe": "Copper Axe",
+  "item.expandedequipment.copper_shovel": "Copper Shovel",
+  "item.expandedequipment.copper_hoe": "Copper Hoe",
+  "item.expandedequipment.copper_sword": "Copper Sword",
+
+  "item.expandedequipment.chorundum_pickaxe": "Chorundum Pickaxe",
+  "item.expandedequipment.chorundum_axe": "Chorundum Axe",
+  "item.expandedequipment.chorundum_shovel": "Chorundum Shovel",
+  "item.expandedequipment.chorundum_hoe": "Chorundum Hoe",
+  "item.expandedequipment.chorundum_sword": "Chorundum Sword",
+
+  "item.expandedequipment.copper_helmet": "Copper Helmet",
+  "item.expandedequipment.copper_chestplate": "Copper Chestplate",
+  "item.expandedequipment.copper_leggings": "Copper Leggings",
+  "item.expandedequipment.copper_boots": "Copper Boots",
+
+  "item.expandedequipment.chorundum_helmet": "Chorundum Helmet",
+  "item.expandedequipment.chorundum_chestplate": "Chorundum Chestplate",
+  "item.expandedequipment.chorundum_leggings": "Chorundum Leggings",
+  "item.expandedequipment.chorundum_boots": "Chorundum Boots",
+
+  "item.expandedequipment.wooden_paxel": "Wooden Paxel",
+  "item.expandedequipment.stone_paxel": "Stone Paxel",
+  "item.expandedequipment.iron_paxel": "Iron Paxel",
+  "item.expandedequipment.golden_paxel": "Golden Paxel",
+  "item.expandedequipment.diamond_paxel": "Diamond Paxel",
+  "item.expandedequipment.netherite_paxel": "Netherite Paxel",
+  "item.expandedequipment.copper_paxel": "Copper Paxel",
+  "item.expandedequipment.chorundum_paxel": "Chorundum Paxel",
+
+  "item.expandedequipment.smithing_template.ingredients": "Ingredients",
+  "item.expandedequipment.smithing_template.applies_to": "Applies To",
+  "item.expandedequipment.smithing_template.chorundum_upgrade.applies_to": "Netherite Equipment",
+  "item.expandedequipment.smithing_template.chorundum_upgrade.ingredients": "Chorundum",
+  "item.expandedequipment.smithing_template.chorundum_upgrade.base_slot_description": "Add Netherite tool, armor, or weapon",
+  "item.expandedequipment.smithing_template.chorundum_upgrade.additions_slot_description": "Add Chorundum",
+  "upgrade.expandedequipment.chorundum_upgrade": "Chorundum Upgrade"
+}

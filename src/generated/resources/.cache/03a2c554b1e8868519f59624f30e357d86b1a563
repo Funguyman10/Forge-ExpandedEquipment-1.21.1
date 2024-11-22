@@ -1,0 +1,9 @@
+// 1.21.1	2024-11-22T00:04:10.0971803	Tags for minecraft:item mod id expandedequipment
+b93855588f17528fd64654166bf3775b6832b10e data/expandedequipment/tags/item/netherite_upgradables.json
+fdec68baa7109033b5ac507cdc02a8dbbb9b1d97 data/minecraft/tags/item/axes.json
+0b34abe76be6d661ad8293561792bd5c0bf44e54 data/minecraft/tags/item/beacon_payment_items.json
+581bafd3e3518e1fbad95a7f6e2efc45cc6e93f7 data/minecraft/tags/item/hoes.json
+c1dab1adf31c291a8a6ad4aeab277d2f0f4ee2a1 data/minecraft/tags/item/pickaxes.json
+2cf5d7ac4b6fc57e0e041fe64bfd7a4270fea1a7 data/minecraft/tags/item/shovels.json
+4353c936cdc28bd3a40152f7ad253744876faa86 data/minecraft/tags/item/swords.json
+d3d0445256299515269626e7b7866baa985167b9 data/minecraft/tags/item/trimmable_armor.json

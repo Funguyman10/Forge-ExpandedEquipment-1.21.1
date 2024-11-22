@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "expandedequipment:block/energetic_deepslate_ore"
+  }
+}

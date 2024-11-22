@@ -1,0 +1,9 @@
+// 1.21.1	2024-11-21T18:58:19.5916297	Tags for minecraft:block mod id expandedequipment
+da40db2bf273563b6bbd3132b06ee6c9639350d5 data/expandedequipment/tags/block/incorrect_for_chorundum_tool.json
+bb7b69d6c8f787b391219e5e78dc92d5566271b3 data/expandedequipment/tags/block/incorrect_for_copper_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/expandedequipment/tags/block/needs_chorundum_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/expandedequipment/tags/block/needs_copper_tool.json
+1e290f053fccf4bf2427d22514b4ff4ba614acb0 data/minecraft/tags/block/beacon_base_blocks.json
+0d8e1fec32753917ef6389280bcf57a114a2bf7d data/minecraft/tags/block/mineable/pickaxe.json
+7bbeac57ca4a28c343d68299c18e89c94668b1d3 data/minecraft/tags/block/needs_diamond_tool.json
+b96203611d851e22358fc26b04ce4f56e3ca3bcb data/minecraft/tags/block/needs_iron_tool.json

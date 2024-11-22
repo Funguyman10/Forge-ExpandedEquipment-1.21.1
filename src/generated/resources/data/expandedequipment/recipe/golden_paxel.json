@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_shovel"
+    },
+    "D": {
+      "item": "minecraft:golden_axe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "pattern": [
+    "DWA",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:golden_paxel"
+  }
+}

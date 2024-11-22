@@ -1,0 +1,5 @@
+// 1.21.1	2024-11-21T18:58:19.5956302	Loot Tables
+e75ecbcfa892ad05e65b44550f68cfe95c8bfd16 data/expandedequipment/loot_table/blocks/chorundum_block.json
+936e287398e7c237047c1099d1b6cd76e00ab1d0 data/expandedequipment/loot_table/blocks/end_chorundum_ore.json
+94164e4bbe89a15eb58a86f34cdef45971179fd9 data/expandedequipment/loot_table/blocks/energetic_deepslate_ore.json
+3fed06dde63d85580dd243bb4759c33ec1c91b86 data/expandedequipment/loot_table/blocks/raw_chorundum_block.json

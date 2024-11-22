@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_chorundum_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "expandedequipment:end_chorundum_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "expandedequipment:chorundum_from_blasting_end_chorundum_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_end_chorundum_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "expandedequipment:chorundum_from_blasting_end_chorundum_ore"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_chorundum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "expandedequipment:raw_chorundum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "expandedequipment:chorundum_from_blasting_raw_chorundum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_chorundum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "expandedequipment:chorundum_from_blasting_raw_chorundum"
+    ]
+  }
+}

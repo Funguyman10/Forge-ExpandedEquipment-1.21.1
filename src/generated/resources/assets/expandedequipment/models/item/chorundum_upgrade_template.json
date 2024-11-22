@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expandedequipment:item/chorundum_upgrade_template"
+  }
+}

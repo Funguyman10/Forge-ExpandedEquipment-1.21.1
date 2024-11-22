@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "expandedequipment:chorundum"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:chorundum_chestplate"
+  },
+  "template": {
+    "item": "expandedequipment:chorundum_upgrade_template"
+  }
+}

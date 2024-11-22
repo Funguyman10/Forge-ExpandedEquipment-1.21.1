@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_shovel"
+    },
+    "D": {
+      "item": "minecraft:iron_axe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "pattern": [
+    "DWA",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:iron_paxel"
+  }
+}
