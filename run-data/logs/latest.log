@@ -1,31 +1,31 @@
-[22Nov2024 15:12:48.219] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\fungu\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, expandedequipment, --all, --output, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\generated\resources, --existing, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\main\resources]
-[22Nov2024 15:12:48.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[22Nov2024 15:12:48.222] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[22Nov2024 15:12:48.310] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[22Nov2024 15:12:48.395] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/fungu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[22Nov2024 15:12:49.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22Nov2024 15:12:49.753] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\fungu\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, expandedequipment, --all, --output, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\generated\resources, --existing, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\main\resources]
-[22Nov2024 15:12:53.505] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.28, for MC 1.21.1 with MCP 20240808.132146
-[22Nov2024 15:12:53.505] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.28 Initialized
-[22Nov2024 15:12:53.526] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[22Nov2024 15:12:53.925] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [expandedequipment]
-[22Nov2024 15:12:53.987] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/fungu/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21/forge-1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[22Nov2024 15:12:53.988] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/fungu/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21/forge-1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[22Nov2024 15:12:54.077] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[22Nov2024 15:12:54.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 160 ms
-[22Nov2024 15:12:54.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id expandedequipment
-[22Nov2024 15:12:54.252] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id expandedequipment finished after 13 ms
-[22Nov2024 15:12:54.252] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id expandedequipment
-[22Nov2024 15:12:54.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id expandedequipment finished after 2 ms
-[22Nov2024 15:12:54.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: expandedequipment
-[22Nov2024 15:12:54.297] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: expandedequipment finished after 40 ms
-[22Nov2024 15:12:54.297] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: expandedequipment
-[22Nov2024 15:12:54.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: expandedequipment finished after 149 ms
-[22Nov2024 15:12:54.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[22Nov2024 15:12:54.477] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 31 ms
-[22Nov2024 15:12:54.477] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[22Nov2024 15:12:54.482] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
-[22Nov2024 15:12:54.482] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : expandedequipment
-[22Nov2024 15:12:54.488] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : expandedequipment finished after 5 ms
-[22Nov2024 15:12:54.488] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 411 ms
-[22Nov2024 15:12:54.495] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 224, old count: 222, new count: 225, removed stale: 0, written: 2
+[22Nov2024 16:04:38.775] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\fungu\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, expandedequipment, --all, --output, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\generated\resources, --existing, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\main\resources]
+[22Nov2024 16:04:38.778] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[22Nov2024 16:04:38.779] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Nov2024 16:04:38.870] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[22Nov2024 16:04:38.956] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/fungu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[22Nov2024 16:04:39.665] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Nov2024 16:04:40.317] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\fungu\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, expandedequipment, --all, --output, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\generated\resources, --existing, C:\Users\fungu\Desktop\Forge-ExpandedEquipment-1.21.1\src\main\resources]
+[22Nov2024 16:04:44.323] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.28, for MC 1.21.1 with MCP 20240808.132146
+[22Nov2024 16:04:44.323] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.28 Initialized
+[22Nov2024 16:04:44.342] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[22Nov2024 16:04:44.759] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [expandedequipment]
+[22Nov2024 16:04:44.810] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/fungu/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21/forge-1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[22Nov2024 16:04:44.811] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/fungu/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21/forge-1.21.1-52.0.28_mapped_parchment_2024.11.10-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[22Nov2024 16:04:44.912] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[22Nov2024 16:04:45.063] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 151 ms
+[22Nov2024 16:04:45.064] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id expandedequipment
+[22Nov2024 16:04:45.075] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id expandedequipment finished after 11 ms
+[22Nov2024 16:04:45.075] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id expandedequipment
+[22Nov2024 16:04:45.078] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id expandedequipment finished after 2 ms
+[22Nov2024 16:04:45.078] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: expandedequipment
+[22Nov2024 16:04:45.118] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: expandedequipment finished after 39 ms
+[22Nov2024 16:04:45.118] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: expandedequipment
+[22Nov2024 16:04:45.243] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: expandedequipment finished after 126 ms
+[22Nov2024 16:04:45.244] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[22Nov2024 16:04:45.278] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 34 ms
+[22Nov2024 16:04:45.279] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[22Nov2024 16:04:45.283] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
+[22Nov2024 16:04:45.283] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : expandedequipment
+[22Nov2024 16:04:45.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : expandedequipment finished after 4 ms
+[22Nov2024 16:04:45.288] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 377 ms
+[22Nov2024 16:04:45.296] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 228, old count: 226, new count: 229, removed stale: 0, written: 2

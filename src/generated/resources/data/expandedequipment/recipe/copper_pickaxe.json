@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
+    "A": {
+      "item": "expandedequipment:chorundum_upgrade_template"
+    },
     "D": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:diamond"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "minecraft:end_stone"
     }
   },
   "pattern": [
-    "DDD",
-    " S ",
-    " S "
+    "DAD",
+    "DSD",
+    "DDD"
   ],
   "result": {
     "count": 1,

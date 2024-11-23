@@ -63,6 +63,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.1f, 200, "energetic_rock");
         oreBlasting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.1f, 100, "energetic_rock");
 
+        //CHORUNDUM SMITHING TEMPLATE DUPLICATION
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get(), 2)
+                .pattern("DAD")
+                .pattern("DSD")
+                .pattern("DDD")
+                .define('D', Items.DIAMOND)
+                .define('S', Items.END_STONE)
+                .define('A', ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get())
+                .unlockedBy("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get())).save(recipeOutput);
+
+        //ENERGETIC ROCK TORCH RECUPE
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TORCH, 6)
+                .pattern("D")
+                .pattern("S")
+                .define('D', ModItems.ENERGETIC_ROCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_energetic_rock", has(ModItems.ENERGETIC_ROCK.get())).save(recipeOutput);
 
         //COPPER TOOLS AND ARMOR
 
@@ -208,7 +225,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_netherite_upgrade_template", has(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_paxel_smithing");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_paxel_smithing"));
 
         //CHORUNDUM TOOLS AND ARMOR
         SmithingTransformRecipeBuilder.smithing(
@@ -225,7 +242,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_pickaxe_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_pickaxe_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -241,7 +258,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_axe_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_axe_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -257,7 +274,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_shovel_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_shovel_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -273,7 +290,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_hoe_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_hoe_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -289,7 +306,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_sword_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_sword_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -305,7 +322,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_paxel_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_paxel_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -321,7 +338,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_helmet_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_helmet_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -337,7 +354,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_chestplate_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID,"netherite_chestplate_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -353,7 +370,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_leggings_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID,"netherite_leggings_upgrade"));
 
         SmithingTransformRecipeBuilder.smithing(
                         // The template ingredient.
@@ -369,7 +386,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // The recipe advancement, like with the other recipes above.
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
-                .save(recipeOutput, "netherite_boots_upgrade");
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_boots_upgrade"));
 
     }
 
