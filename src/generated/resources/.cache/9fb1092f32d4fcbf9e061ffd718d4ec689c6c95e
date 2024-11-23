@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-22T16:33:58.79431	Recipes
+// 1.21.1	2024-11-22T16:42:11.9042198	Recipes
 7c827b32a849a3a89ebe9dc34f87d2e139b332bc data/expandedequipment/advancement/recipes/combat/copper_boots.json
 6997a296c894402e3b2ff7c630f9c2c3443ce57d data/expandedequipment/advancement/recipes/combat/copper_chestplate.json
 d3ca59f6d28324d0af00938e0f5186a927358448 data/expandedequipment/advancement/recipes/combat/copper_helmet.json
@@ -70,7 +70,7 @@ e1e11156f2172134d6c31df59ac2cda64626c9e4 data/expandedequipment/recipe/netherite
 6db41ec7a6fcffc1f4c6672bc43c01c2226d1acd data/expandedequipment/recipe/netherite_pickaxe_upgrade.json
 a9a14f75c664e2c46e3a0ad9f6d47810b2041aa1 data/expandedequipment/recipe/netherite_shovel_upgrade.json
 660f7063de39c1efebb5eed36dcc8fe8290f7b19 data/expandedequipment/recipe/netherite_sword_upgrade.json
-69c8cb3ac6285c8523ceb74f4709ce018031cc80 data/expandedequipment/recipe/raw_chorundum.json
+4729e8c06916f89cbb3bd6a87ad7729ee8decc59 data/expandedequipment/recipe/raw_chorundum.json
 3b4558cb3137ac6a01c5442192c6b9684fb2282e data/expandedequipment/recipe/raw_chorundum_block.json
 34ef916ab22bf2ed4da01a839ed39e9e3a941430 data/expandedequipment/recipe/stone_paxel.json
 5d54f6b623b55f0ecd3e4ff517ac518f3588b144 data/expandedequipment/recipe/torch_from_energetic_rock.json

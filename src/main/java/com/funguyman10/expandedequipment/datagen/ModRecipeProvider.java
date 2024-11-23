@@ -54,7 +54,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_chorundum_block", has(ModBlocks.CHORUNDUM_BLOCK.get())).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_CHORUNDUM.get(), 9)
-                .requires(ModBlocks.CHORUNDUM_BLOCK.get())
+                .requires(ModBlocks.RAW_CHORUNDUM_BLOCK.get())
                 .unlockedBy("has_raw_chorundum_block", has(ModBlocks.RAW_CHORUNDUM_BLOCK.get())).save(recipeOutput);
 
         oreSmelting(recipeOutput, EXPANDEDEQUIPMENT_CHORUNDUM_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.5f, 200, "chorundum");
