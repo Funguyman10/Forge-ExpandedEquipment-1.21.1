@@ -23,7 +23,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("chorundum_upgrade_template_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 LootTableIdCondition.builder(ResourceLocation.parse("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.65f).build()},
+                LootItemRandomChanceCondition.randomChance(0.30f).build()},
                 ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()));
     }
 }

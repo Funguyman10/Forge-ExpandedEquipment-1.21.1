@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "D D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:copper_helmet"
+  }
+}

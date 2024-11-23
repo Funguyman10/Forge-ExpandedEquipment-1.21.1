@@ -25,11 +25,11 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, ENERGETIC_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ENERGETIC_STONE_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(12,
+                ModOrePlacement.commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-8))));
 
         register(context, CHORUNDUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_CHORUNDUM_ORE_KEY_FEATURE),
-                ModOrePlacement.commonOrePlacement(5,
+                ModOrePlacement.commonOrePlacement(6,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(65))));
 
         register(context, BIG_CHORUNDUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BIG_END_CHORUNDUM_ORE_KEY_FEATURE),

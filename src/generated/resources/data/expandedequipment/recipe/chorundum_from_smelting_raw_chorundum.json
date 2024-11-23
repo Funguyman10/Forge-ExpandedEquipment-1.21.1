@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "chorundum",
+  "ingredient": {
+    "item": "expandedequipment:raw_chorundum"
+  },
+  "result": {
+    "id": "expandedequipment:chorundum"
+  }
+}

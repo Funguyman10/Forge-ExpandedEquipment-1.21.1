@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DDD",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:copper_pickaxe"
+  }
+}

@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> END_CHORUNDUM_ORE = registerBlock("end_chorundum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(4f, 200f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RAW_CHORUNDUM_BLOCK = registerBlock("raw_chorundum_block",
             () -> new Block(BlockBehaviour.Properties.of()
