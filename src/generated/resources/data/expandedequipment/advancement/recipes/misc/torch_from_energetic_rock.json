@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_energetic_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "expandedequipment:energetic_rock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "expandedequipment:torch_from_energetic_rock"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_energetic_rock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "expandedequipment:torch_from_energetic_rock"
+    ]
+  }
+}

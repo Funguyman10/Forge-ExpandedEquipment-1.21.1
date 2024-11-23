@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "expandedequipment:chorundum"
+  },
+  "base": {
+    "item": "expandedequipment:netherite_paxel"
+  },
+  "result": {
+    "count": 1,
+    "id": "expandedequipment:chorundum_paxel"
+  },
+  "template": {
+    "item": "expandedequipment:chorundum_upgrade_template"
+  }
+}
