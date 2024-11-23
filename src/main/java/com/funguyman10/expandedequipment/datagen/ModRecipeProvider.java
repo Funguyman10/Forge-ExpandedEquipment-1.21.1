@@ -60,8 +60,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, EXPANDEDEQUIPMENT_CHORUNDUM_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.5f, 200, "chorundum");
         oreBlasting(recipeOutput, EXPANDEDEQUIPMENT_CHORUNDUM_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.5f, 100, "chorundum");
 
-        oreSmelting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.1f, 200, "energetic_rock");
-        oreBlasting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.CHORUNDUM.get(), 0.1f, 100, "energetic_rock");
+        oreSmelting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.ENERGETIC_ROCK.get(), 0.1f, 200, "energetic_rock");
+        oreBlasting(recipeOutput, EXPANDEDEQUIPMENT_ENERGETIC_SMELTABLES, RecipeCategory.MISC, ModItems.ENERGETIC_ROCK.get(), 0.1f, 100, "energetic_rock");
 
         //CHORUNDUM SMITHING TEMPLATE DUPLICATION
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get(), 2)
@@ -73,13 +73,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get())
                 .unlockedBy("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get())).save(recipeOutput);
 
-        //ENERGETIC ROCK TORCH RECUPE
+        //ENERGETIC ROCK TORCH RECIPE
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TORCH, 6)
                 .pattern("D")
                 .pattern("S")
                 .define('D', ModItems.ENERGETIC_ROCK.get())
                 .define('S', Items.STICK)
-                .unlockedBy("has_energetic_rock", has(ModItems.ENERGETIC_ROCK.get())).save(recipeOutput);
+                .unlockedBy("has_energetic_rock", has(ModItems.ENERGETIC_ROCK.get())).save(recipeOutput, ExpandedEquipment.MOD_ID + ":torch_from_energetic_rock");
 
         //COPPER TOOLS AND ARMOR
 
