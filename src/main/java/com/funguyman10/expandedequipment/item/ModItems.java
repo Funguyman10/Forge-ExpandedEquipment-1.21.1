@@ -100,16 +100,16 @@ public class ModItems {
 
     public static final RegistryObject<ArmorItem> CHORUNDUM_HELMET = ITEMS.register("chorundum_helmet",
             () -> new ArmorItem(ModArmorMaterials.CHORUNDUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(42))));
     public static final RegistryObject<ArmorItem> CHORUNDUM_CHESTPLATE = ITEMS.register("chorundum_chestplate",
             () -> new ArmorItem(ModArmorMaterials.CHORUNDUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(42))));
     public static final RegistryObject<ArmorItem> CHORUNDUM_LEGGINGS = ITEMS.register("chorundum_leggings",
             () -> new ArmorItem(ModArmorMaterials.CHORUNDUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(42))));
     public static final RegistryObject<ArmorItem> CHORUNDUM_BOOTS = ITEMS.register("chorundum_boots",
             () -> new ArmorItem(ModArmorMaterials.CHORUNDUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(42))));
 
     public static final RegistryObject<Item> CHORUNDUM_UPGRADE_TEMPLATE = ITEMS.register("chorundum_upgrade_template",
             CustomSmithingTemplateItem::createChorundumUpgradeTemplate);
