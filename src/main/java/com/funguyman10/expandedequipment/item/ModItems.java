@@ -4,7 +4,6 @@ import com.funguyman10.expandedequipment.ExpandedEquipment;
 import com.funguyman10.expandedequipment.custom.CustomSmithingTemplateItem;
 import com.funguyman10.expandedequipment.custom.FuelItem;
 import com.funguyman10.expandedequipment.custom.PaxelItem;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
