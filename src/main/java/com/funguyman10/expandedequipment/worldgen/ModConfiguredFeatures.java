@@ -33,7 +33,7 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworldEnergeticOres = List.of(OreConfiguration.target(deepslateReplacable,
                 ModBlocks.ENERGETIC_DEEPSLATE_ORE.get().defaultBlockState()));
 
-        FeatureUtils.register(context, OVERWORLD_ENERGETIC_STONE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEnergeticOres, 12, 0.1F));
+        FeatureUtils.register(context, OVERWORLD_ENERGETIC_STONE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEnergeticOres, 15, 0.4F));
 
         FeatureUtils.register(context, END_CHORUNDUM_ORE_KEY_FEATURE, Feature.ORE, new OreConfiguration(endReplacables,
                 ModBlocks.END_CHORUNDUM_ORE.get().defaultBlockState(), 3, 0.5F));
