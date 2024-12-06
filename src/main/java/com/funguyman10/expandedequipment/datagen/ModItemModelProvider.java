@@ -51,6 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.COPPER_HOE);
         handheldItem(ModItems.COPPER_SWORD);
         handheldItem(ModItems.COPPER_PAXEL);
+        handheldItem(ModItems.COPPER_SPEAR);
 
         handheldItem(ModItems.CHORUNDUM_SWORD);
         handheldItem(ModItems.CHORUNDUM_PICKAXE);
@@ -58,6 +59,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.CHORUNDUM_AXE);
         handheldItem(ModItems.CHORUNDUM_HOE);
         handheldItem(ModItems.CHORUNDUM_PAXEL);
+        handheldItem(ModItems.CHORUNDUM_SPEAR);
 
         trimmedArmorItem(ModItems.CHORUNDUM_HELMET);
         trimmedArmorItem(ModItems.CHORUNDUM_CHESTPLATE);
@@ -75,6 +77,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.GOLDEN_PAXEL);
         handheldItem(ModItems.DIAMOND_PAXEL);
         handheldItem(ModItems.NETHERITE_PAXEL);
+
+        handheldItem(ModItems.WOODEN_SPEAR);
+        handheldItem(ModItems.STONE_SPEAR);
+        handheldItem(ModItems.GOLDEN_SPEAR);
+        handheldItem(ModItems.IRON_SPEAR);
+        handheldItem(ModItems.DIAMOND_SPEAR);
+        handheldItem(ModItems.NETHERITE_SPEAR);
     }
     private ItemModelBuilder handheldItem(RegistryObject<?> item) {
         return withExistingParent(item.getId().getPath(),

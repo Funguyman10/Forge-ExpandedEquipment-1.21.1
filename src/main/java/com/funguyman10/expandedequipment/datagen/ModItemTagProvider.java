@@ -70,7 +70,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD.get())
-                .add(ModItems.CHORUNDUM_SWORD.get());
+                .add(ModItems.CHORUNDUM_SWORD.get())
+                .add(ModItems.CHORUNDUM_SPEAR.get())
+                .add(ModItems.COPPER_SPEAR.get())
+                .add(ModItems.WOODEN_SPEAR.get())
+                .add(ModItems.STONE_SPEAR.get())
+                .add(ModItems.GOLDEN_SPEAR.get())
+                .add(ModItems.IRON_SPEAR.get())
+                .add(ModItems.DIAMOND_SPEAR.get())
+                .add(ModItems.NETHERITE_SPEAR.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.COPPER_HELMET.get())
@@ -92,6 +100,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.NETHERITE_BOOTS)
                 .add(Items.NETHERITE_LEGGINGS)
                 .add(Items.NETHERITE_CHESTPLATE)
-                .add(ModItems.NETHERITE_PAXEL.get());
+                .add(ModItems.NETHERITE_PAXEL.get())
+                .add(ModItems.NETHERITE_SPEAR.get());
     }
 }

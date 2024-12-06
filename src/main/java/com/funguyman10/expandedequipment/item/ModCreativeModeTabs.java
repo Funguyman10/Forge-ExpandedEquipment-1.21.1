@@ -67,6 +67,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_PAXEL.get());
                         output.accept(ModItems.NETHERITE_PAXEL.get());
 
+                        output.accept(ModItems.WOODEN_SPEAR.get());
+                        output.accept(ModItems.STONE_SPEAR.get());
+                        output.accept(ModItems.GOLDEN_SPEAR.get());
+                        output.accept(ModItems.IRON_SPEAR.get());
+                        output.accept(ModItems.DIAMOND_SPEAR.get());
+                        output.accept(ModItems.NETHERITE_SPEAR.get());
+                        output.accept(ModItems.COPPER_SPEAR.get());
+                        output.accept(ModItems.CHORUNDUM_SPEAR.get());
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> EXPANDED_EQUIPMENT_ARMOR_TAB = CREATIVE_MODE_TAB.register("expanded_equipment_armor_tab",

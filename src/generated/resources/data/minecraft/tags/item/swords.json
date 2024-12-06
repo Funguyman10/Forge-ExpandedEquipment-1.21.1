@@ -1,6 +1,14 @@
 {
   "values": [
     "expandedequipment:copper_sword",
-    "expandedequipment:chorundum_sword"
+    "expandedequipment:chorundum_sword",
+    "expandedequipment:chorundum_spear",
+    "expandedequipment:copper_spear",
+    "expandedequipment:wooden_spear",
+    "expandedequipment:stone_spear",
+    "expandedequipment:golden_spear",
+    "expandedequipment:iron_spear",
+    "expandedequipment:diamond_spear",
+    "expandedequipment:netherite_spear"
   ]
 }

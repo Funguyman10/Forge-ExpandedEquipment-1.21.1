@@ -13,11 +13,13 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.forgespi.language.IModInfo;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -387,6 +389,93 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
                 // This overload of #save allows us to specify a name.
                 .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_boots_upgrade"));
+
+        //Spear recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy("has_copper_ingots_and_sticks", has(Items.COPPER_INGOT))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOODEN_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', ItemTags.PLANKS)
+                .define('S', Items.STICK)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.STONE_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', ItemTags.STONE_TOOL_MATERIALS)
+                .define('S', Items.STICK)
+                .unlockedBy("has_tool_stone", has(ItemTags.STONE_TOOL_MATERIALS))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GOLDEN_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', Items.GOLD_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy("has_gold_ingot", has(Items.GOLD_INGOT))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.IRON_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', Items.IRON_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.DIAMOND_SPEAR.get())
+                .pattern("  D")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('D', Items.DIAMOND)
+                .define('S', Items.STICK)
+                .unlockedBy("has_diamond", has(Items.DIAMOND))
+                .save(recipeOutput);
+
+        SmithingTransformRecipeBuilder.smithing(
+                        // The template ingredient.
+                        Ingredient.of(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+                        // The base ingredient.
+                        Ingredient.of(ModItems.DIAMOND_SPEAR.get()),
+                        // The addition ingredient.
+                        Ingredient.of(Items.NETHERITE_INGOT),
+                        // The recipe book category.
+                        RecipeCategory.COMBAT,
+                        // The result item.
+                        ModItems.NETHERITE_SPEAR.get())
+                // The recipe advancement, like with the other recipes above.
+                .unlocks("has_netherite_upgrade_template", has(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE))
+                // This overload of #save allows us to specify a name.
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "diamond_spear_upgrade"));
+
+        SmithingTransformRecipeBuilder.smithing(
+                        // The template ingredient.
+                        Ingredient.of(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()),
+                        // The base ingredient.
+                        Ingredient.of(ModItems.NETHERITE_SPEAR.get()),
+                        // The addition ingredient.
+                        Ingredient.of(ModItems.CHORUNDUM.get()),
+                        // The recipe book category.
+                        RecipeCategory.COMBAT,
+                        // The result item.
+                        ModItems.CHORUNDUM_SPEAR.get())
+                // The recipe advancement, like with the other recipes above.
+                .unlocks("has_chorundum_upgrade_template", has(ModItems.CHORUNDUM_UPGRADE_TEMPLATE.get()))
+                // This overload of #save allows us to specify a name.
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ExpandedEquipment.MOD_ID, "netherite_spear_upgrade"));
 
     }
 

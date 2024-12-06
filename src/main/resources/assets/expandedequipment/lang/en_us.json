@@ -46,6 +46,15 @@
   "item.expandedequipment.copper_paxel": "Copper Paxel",
   "item.expandedequipment.chorundum_paxel": "Chorundum Paxel",
 
+  "item.expandedequipment.chorundum_spear": "Chorundum Spear",
+  "item.expandedequipment.copper_spear": "Copper Spear",
+  "item.expandedequipment.wooden_spear": "Wooden Spear",
+  "item.expandedequipment.stone_spear": "Stone Spear",
+  "item.expandedequipment.golden_spear": "Golden Spear",
+  "item.expandedequipment.iron_spear": "Iron Spear",
+  "item.expandedequipment.diamond_spear": "Diamond Spear",
+  "item.expandedequipment.netherite_spear": "Netherite Spear",
+
   "item.expandedequipment.smithing_template.ingredients": "Ingredients",
   "item.expandedequipment.smithing_template.applies_to": "Applies To",
   "item.expandedequipment.smithing_template.chorundum_upgrade.applies_to": "Netherite Equipment",
